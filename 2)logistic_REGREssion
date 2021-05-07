@@ -1,0 +1,65 @@
+step 1 
+ importing libraries
+          import the relevant libraries\
+
+step 2
+  load the data
+       load the data
+step 3
+  analyze
+     analyze the data for missing stuffs
+     
+step 4 
+    visualize 
+         visualize where the missing data are to be found
+         
+step 5 
+    overcome
+          try to overcome / remove if it is way more
+
+step 6 
+   use function 
+      say in titanic example we have to impute the age inorder to improve predictions
+step 7
+    view heat map again 
+     make sure tht we don't have any such missing data
+step 8
+    convert to dummies
+      convert the categorical variables into dummy variable so tht our ml will use tht
+       use get dummies
+        remove the first one
+          and also remove the converted stuffs
+            try removing other stuffs like name so on coz it has n unique stuffs
+step 
+ std scaler
+ 
+step - 9
+train test split
+       split the data into 2 stuffs
+
+step - 10
+import log
+      import logistic regress
+
+step - 11
+fit the train data
+
+step - 12
+predict it
+
+step - 13
+plot the graph
+
+step - 14
+check for precision using classification report
+ for dropping multiple stuffs contain them in a single bracket
+
+
+
+
+
+
+
+
+
+
