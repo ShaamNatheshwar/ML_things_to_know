@@ -9,17 +9,47 @@ load the data
 step - 3
 read the data
           read the data to grab more about it
+              while reading if we found tht unique has more more values just drop the unique value of one tht is high
+                 drop the missing values
 
 step - 4
 visualize the data
            using distplot to check for any outliers or the data is normally distributed.
          once if u find it linearly distributed
-
-step - 5
+             
+step 5   ()
+outliers
+ if it is not linearly distributed go for the outliers
+    and quantile the outlier values if they are really big 
+       do this for all stuffs
+               for quantiling make use 0.99 , google and common sense
+                 reset the index with new var
+step - 7 ()
+check for ols assumption
+  check whether the graph is in the form of regression if not go for ols assumption
+      dep vs indep
+         then convert the stuffs to log if its not and so on
+step - 8
+multicollinearity
+once done with these check for multicollinearity -
+    multi collinearity can be used the drop the variable tht is too high
+    
+step - 9 
+dummy_variables
+    this use dummy variables to use categorical stuffs as well in the data
+        make sure we drop the first data
+step - 10
+Rearrange a bit
+          so tht the independent variable is on first
+step - 11
 split the data
         X = independent variables , y = dependent variable
         
-step - 6
+step - 12
+    scaling
+           use std scaler so tht everything values are less and easy to calculate
+        
+step - 13
 train_test_split
               split the data so tht we can check the accuracy of original data with our predicted ones
 
@@ -44,6 +74,19 @@ step - 12
 plotting
         plot predicted X value with Y_test(known one)
           if we find a proper regression fit then our model is good
+step - 13
+        plot the predicted xtrain and ytrain and then xtest ytest
+
+step - 14
+finding r squared 
+       find the root squard values
+step - 15
+make df
+    make data frame so tht we convert the log values into old value which we did during ols
+      convert y_hata-test to exp
+       then reset index 
+          convert y_test to exp
+            calculate error
 
 the basic assumption is we know the price values of the house , 
              we are creating an algorithm so tht it reduces the difference btw the original price
@@ -52,7 +95,12 @@ the basic assumption is we know the price values of the house ,
                          creating an fitting model with x_train , and seeing how x_test acts on it with correspondece to y_test
                            finding coefficients in X_train , and checking whether its good or not...dot
                                u may ask y we need this if we have y...just for new samples analysis
-                           
+ 
+ 
+ step - 16
+    calculating erroe
+        calculate stuffs from target and predictions which u got from df
+        
 step - 13
 calculating error
       from metrics we are calculating root mean square and other error for checking accuracy
