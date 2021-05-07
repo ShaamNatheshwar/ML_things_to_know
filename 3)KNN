@@ -1,0 +1,24 @@
+step 1 
+  import library
+    import all the necessary libraries
+step 2
+   load the data
+      load the csv file
+step 3
+   analyze
+     analyze the data for cleaning and preprocessing
+step 4 
+    standardscaler
+step 5
+    splitting
+    into 2 var
+step 6
+     import Kmeans
+step 7
+      fit the data
+
+step 8 
+     predict it
+step 9
+     confusion_matrix, classification report
+wait wait for neighbour classification we need to find it using elbow method
