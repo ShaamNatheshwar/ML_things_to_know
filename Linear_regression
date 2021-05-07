@@ -51,6 +51,7 @@ the basic assumption is we know the price values of the house ,
                       basically x_train is just to train the model , X_test helps in predicting how well it suits
                          creating an fitting model with x_train , and seeing how x_test acts on it with correspondece to y_test
                            finding coefficients in X_train , and checking whether its good or not...dot
+                               u may ask y we need this if we have y...just for new samples analysis
                            
 step - 13
 calculating error
