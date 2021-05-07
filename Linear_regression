@@ -1,0 +1,114 @@
+step - 1
+importing libraries
+         import the relevant libraries we needed
+      once done
+step - 2      
+load the data 
+           load the data which they asked us to predict
+        once done
+step - 3
+read the data
+          read the data to grab more about it
+
+step - 4
+visualize the data
+           using distplot to check for any outliers or the data is normally distributed.
+         once if u find it linearly distributed
+
+step - 5
+split the data
+        X = independent variables , y = dependent variable
+        
+step - 6
+train_test_split
+              split the data so tht we can check the accuracy of original data with our predicted ones
+
+step - 7
+import regression - 
+              import regression from sklearn
+step - 8
+assign regression to a variable
+               assign it to a variable
+step - 9
+fitting
+        fit x-train and y train to the data 
+             fit the train set so  tht we can find the test set y - prices , x - feautures respectively
+step - 10
+finding stuffs
+          find the intercept and coefficient and create a df to store them
+                 use coefficient in df
+step - 11
+predict xtest
+         predict the xtest value as we don't know its value
+step - 12
+plotting
+        plot predicted X value with Y_test(known one)
+          if we find a proper regression fit then our model is good
+
+the basic assumption is we know the price values of the house , 
+             we are creating an algorithm so tht it reduces the difference btw the original price
+                what are the uses - uses in the sense once if our model is good we can find the price of unknown house using this
+                      basically x_train is just to train the model , X_test helps in predicting how well it suits
+                         creating an fitting model with x_train , and seeing how x_test acts on it with correspondece to y_test
+                           finding coefficients in X_train , and checking whether its good or not...dot
+                           
+step - 13
+calculating error
+      from metrics we are calculating root mean square and other error for checking accuracy
+      mean absolute error
+      mean squared error
+      root mean squared error
+     
+step - 14
+conclusion
+       we can conclude by saying tht if we have good accuracy our assumptions are good enough and fix the price accordingly
+       
+       
+       
+       Interpreting the coefficients:
+
+Holding all other features fixed, a 1 unit increase in Avg. Area Income is associated with an *increase of $21.52 *.
+Holding all other features fixed, a 1 unit increase in Avg. Area House Age is associated with an *increase of $164883.28 *.
+Holding all other features fixed, a 1 unit increase in Avg. Area Number of Rooms is associated with an *increase of $122368.67 *.
+Holding all other features fixed, a 1 unit increase in Avg. Area Number of Bedrooms is associated with an *increase of $2233.80 *.
+Holding all other features fixed, a 1 unit increase in Area Population is associated with an *increase of $15.15 *.
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
