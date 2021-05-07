@@ -1,0 +1,20 @@
+step - 1
+  libraries
+        import all the necessary libraries
+step - 1
+  load data
+step 3
+   analayze
+step 4 
+   split data
+step 5
+    train and test
+    
+step 6
+     import decisiontree
+step 7
+      train and fit
+step8 
+     confusion matrix
+step 9
+   random forest and follow these stuffs
