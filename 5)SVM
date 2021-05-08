@@ -1,0 +1,26 @@
+step 1
+    import library
+      import relevant library
+
+step 2
+     load data set
+step 3 
+     grab keys
+step 4
+     create a dataFrame
+step 5
+     train_test_split
+       split the data into x,y - train,test
+step 6
+     call svc
+      call it
+step 7
+    fit
+      fit the train , test data into it
+step 8
+    predictions
+    
+note in tht data frame we are given a task to classify using svc whether to get cancer is there or not
+so we are creating a data from of the data 
+   as well as the data frame of the target so tht we can use svc to get seperated
+   
