@@ -1,0 +1,26 @@
+step 1
+import libraries
+   import the relevant libraries
+  
+step 2
+  load data sets
+     from sklearn or any inbuilt
+
+step 3
+  create a df
+        initialize dataset to df
+        
+step 4
+      visualize the df
+  
+ step 5
+       std the data set
+ step 6
+     call pca
+step 7 
+   fit the data
+step 8 
+    transform
+step 9
+    visualize
+    
