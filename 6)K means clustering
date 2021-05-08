@@ -1,0 +1,20 @@
+step 1
+    library
+       import the relevant libraries
+step 2
+     load the data 
+          load data using datasers
+step 3
+    load data and give nsample , centre so on
+          
+step 4 ()
+   important there are 2 sets one the actual data
+      is the data used to categorize , where we implement the color stuff
+  this is the actual data so lets predict it with kmwans
+ 
+ step 5 
+     import kmeans
+          
+          
+          
+          
