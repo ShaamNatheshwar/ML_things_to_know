@@ -34,6 +34,7 @@ multicollinearity
 once done with these check for multicollinearity -
     multi collinearity can be used the drop the variable tht is too high
     
+    transform the data only if it has a df
 step - 9 
 dummy_variables
     this use dummy variables to use categorical stuffs as well in the data
